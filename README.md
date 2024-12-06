@@ -1,5 +1,8 @@
 # Portfolio
 
+
+![Alt text](URL_or_local_path_to_image)
+
 ## Overview
 As a highly motivated and results-driven Technical Analyst, I specialize in optimizing business operations through innovative process reengineering. With a strong background in working with Cobol and Mainframe systems, I excel in identifying cost-effective solutions and leveraging data to drive strategic decisions. My expertise includes data cleaning, transformation, and validation to ensure high-quality, consistent datasets. Additionally, I am adept at collaborating with cross-functional teams to elicit requirements, visualize business processes, and implement efficient solutions.
 
@@ -14,7 +17,7 @@ Whether it’s designing complex SQL scripts or enhancing inventory management p
 ### 1. SQL Code demonstrating coding Ability. 
 
 
-- [`Coding sample.sql`](link-to-file):
+- [`Coding sample.sql`](C:\Users\Micha\OneDrive\Desktop\Professional headshot.jpg):
  ## Script Overview
 
 This script demonstrates:
