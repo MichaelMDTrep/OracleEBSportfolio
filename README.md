@@ -128,6 +128,74 @@ This script demonstrates various SQL operations including table creation, data i
 CREATE TABLE DEPT2 (ID NUMBER(7), NAME VARCHAR2(25));
 SELECT table_name FROM user_tables WHERE table_name = 'DEPT2';
 
+
+
+# General Ledger Assessment - Michael Trepanier
+
+## Overview
+This project demonstrates my ability to navigate and complete key tasks in Oracle’s General Ledger (GL) module, which involves managing user roles, reviewing financial setups, querying journal entries, and working with the Chart of Accounts.
+
+## Steps & Actions
+
+### 1. **User Definition Setup**
+- Navigate to: `System Administrator > Security > User > Define`
+- Actions:
+  - Create a user with a temporary password.
+  - Assign relevant responsibilities: 
+    - Vision Operation General Ledger
+    - Vision Operation Inventory
+    - Vision Operation Procurement
+  - Set the password expiration to 60 days.
+
+### 2. **Ledger Details Setup**
+- Navigate to: `Vision Operation General Ledger > Setup > Financials > Accounting Setup Manager`
+- Actions:
+  - Search for the Vision Operation Primary Ledger.
+  - Review Calendar (Accounting Calendar), Currency (Translation Options), and Control (Budgetary Control).
+
+### 3. **Account Code Combinations**
+- Navigate to: `General Ledger > Setup > Accounts > Combinations`
+- Review and query all available account code combinations.
+
+### 4. **Find Journals**
+- Navigate to: `Journals > Enter`
+- Actions:
+  - Filter journal entries by Payables source.
+  - Query all Payables journals to retrieve relevant journal entries.
+
+### 5. **Identify Data Table Name**
+- Navigate to a journal header and use `Help > Record History` to find the associated Database Table Name for the journal header.
+
+### 6. **Find Manual and Payable Journals**
+- Query for journals by source: 
+  - Manual Journal
+  - Payables Journal
+
+### 7. **Review Posted Journal Entries**
+- Navigate to `Query by Example` in the `Journal Enter` screen.
+- Review all posted journal entries.
+
+### 8. **Chart of Accounts Setup**
+- Navigate to: `Setup > Financials > Flexfields > Key > Segments`
+- Actions:
+  - Query and review the structure of the Chart of Accounts.
+
+### 9. **Trial Balance Report**
+- Navigate to: `Reports > Requests > Submit a New Request`
+- Actions:
+  - Submit the Trial Balance report and track its status.
+
+### 10. **Ledger Set Components**
+- Navigate to: `Setup > Financials > Ledger Sets`
+- Query and identify common components within a Ledger Set (e.g., Chart of Accounts, Calendar, Currency).
+
+---
+
+## Conclusion
+This project highlights my ability to manage and query financial setups in Oracle's General Ledger, including user creation, ledger setup, journal entry reviews, and financial reporting. It demonstrates my proficiency in handling complex financial systems and performing essential GL tasks.
+
+
+
  
 
 
