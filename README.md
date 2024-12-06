@@ -10,7 +10,7 @@
 ## SQL demonstration
 
 ### 1. SQL Code demonstrating coding Ability. 
-
+## All the documents can be found in my Oracle EBS directory 
 
 - [`Coding sample.sql`](link-to-file):
  ## Script Overview
@@ -194,6 +194,151 @@ This project demonstrates my ability to navigate and complete key tasks in Oracl
 ## Conclusion
 This project highlights my ability to manage and query financial setups in Oracle's General Ledger, including user creation, ledger setup, journal entry reviews, and financial reporting. It demonstrates my proficiency in handling complex financial systems and performing essential GL tasks.
 
+
+
+
+# Oracle E-Business Suite Inventory Assignment
+**Date:** 15th November 2024
+
+## Overview
+This assignment explores various functionalities within the Oracle Inventory module of Oracle E-Business Suite, which is integral for managing items, inventory levels, transactions, and integration with other modules like Order Management and Purchasing. The tasks performed include inventory management, item creation, and generating reports, showcasing proficiency in navigating the Oracle system.
+
+## Steps & Actions
+
+### 1. **Understanding the Oracle Inventory Module**
+The Oracle Inventory module provides tools to manage items, inventory levels, sub-inventories, and inventory transactions. It integrates with other Oracle modules like Order Management and Purchasing for comprehensive inventory control.
+
+### 2. **Switching User Responsibility**
+- **Action:** Switched to `Vision Operation Inventory` responsibility to access inventory-related functions.
+
+### 3. **Finding Master Items**
+- **Navigation:** `Items > Master Items > Vision Operations`
+- **Action:** Located and viewed master items within the inventory section.
+
+### 4. **Assigning an Item to All Inventory Orgs**
+- **Action:** Selected an item and assigned it to all Inventory Orgs using the "Assign All" button.
+
+### 5. **Unassigning an Item from All Inventory Orgs**
+- **Action:** Unassigned the same item from all Inventory Orgs using the "Unassign All" button.
+
+### 6. **Checking On-Hand Quantity**
+- **Navigation:** `Inventory > On-Hand Availability > On-Hand Quantity`
+- **Action:** Checked the on-hand quantity of a selected item within the Vision Operations inventory.
+
+### 7. **Unit of Measure (UOM) Definition**
+- **Navigation:** `Inventory > Setup > Units of Measure`
+- **Action:** Displayed where the Unit of Measure (UOM) has been defined within the system.
+
+### 8. **Creating a New Inventory Item**
+- **Navigation:** `Inventory > Items > Master Items`
+- **Action:** Created a new inventory item by filling out the Master Item form and saving it.
+
+### 9. **Running Inventory Valuation Report**
+- **Navigation:** `View > Requests`
+- **Action:** Ran the Inventory Valuation Report by submitting it with the appropriate parameters and tracking the request ID.
+
+### 10. **Changing Inventory Organization**
+- **Navigation:** `Inventory > Change Organization`
+- **Action:** Changed the current responsibility’s inventory organization by selecting from a list of available organizations.
+
+### 11. **Master Data in Oracle Inventory**
+Master Data is a set of data used to maintain consistency and data integrity across Oracle modules. It includes information like item descriptions, Units of Measure, Costing Methods, and more.
+
+### 12. **Viewing Existing Organizations**
+- **Navigation:** `Inventory > Setup > Organizations > Organizations`
+- **Action:** Queried and displayed the existing organizations for Vision Operations.
+
+### 13. **Managing Different Types of Inventory**
+Oracle Inventory is not limited to finished goods. It can manage various types of inventory, including:
+- Raw Materials
+- Work-in-Progress (WIP) items
+- Finished Goods
+- Maintenance, Repair, and Operations (MRO) items
+- Expense Items
+
+### 14. **Item Creation Before Inventory Transactions**
+- **True/False:** True. A Master Item must be created before performing any inventory transactions.
+
+### 15. **Sub-Inventories in Oracle Inventory**
+- **True/False:** True. Sub-inventories are optional but provide more efficient management and tracking of physical inventory items.
+
+---
+
+## Conclusion
+This assignment demonstrates my ability to navigate the Oracle E-Business Suite Inventory module, including managing master items, querying inventory data, generating reports, and handling various inventory-related transactions. Through hands-on tasks, I have gained experience with key features of Oracle Inventory and its integration with other business processes.
+
+
+
+
+# Order Management Process Assignment
+**Date:** [Insert Date]
+
+## Overview
+This document outlines the process of managing sales orders, customer accounts, and invoice generation within the Oracle Order Management module. The steps include setting up system parameters, creating customer accounts, entering and processing sales orders, and integrating with Oracle Receivables for invoicing.
+
+## Steps & Actions
+
+### 1. **Navigate to Responsibility**
+- **Action:** Accessed the required responsibility in Oracle, either "Order Management Super User" or "Order Management Setup."
+
+### 2. **Open System Parameters**
+- **Navigation:** `Setup > System Parameters > Values`
+- **Action:** Opened the System Parameters screen and filled in the required values according to the activity guide:
+  - **Parameter Code:** ENABLE_FULFILLMENT_ACCEPTANCE
+  - **Name and Description:** Filled in the same as the parameter code, in lowercase without underscores.
+  - **Category:** Generic Parameters
+  - **Value Set:** OM: Yes or No
+  - **Open Orders Check:** Enabled for processing open orders.
+
+### 3. **Create a Customer Account**
+- **Navigation:** `Customers > Standard`
+- **Action:** Used the simple search page to look up customer "Ame%" and selected the customer. 
+- **Steps:**
+  1. Created a new customer account by filling in the necessary details.
+  2. Saved the account and filled out additional information, including billing and shipping addresses.
+  3. Applied the changes and saved the customer account.
+
+### 4. **Enter a Sales Order**
+- **Navigation:** `Orders > Sales Orders`
+- **Action:** 
+  1. Entered order details such as Order Type, Customer Name, and Bill-To/Ship-To addresses.
+  2. Added line items for products/services, including quantities and pricing.
+  3. Validated the order by clicking "Book Order" to confirm the order details.
+
+### 5. **Use the Order Import Interface**
+- **Action:**
+  1. Populated the Order Import Interface Tables (`OE_HEADERS_IFACE_ALL`, `OE_LINES_IFACE_ALL`) with order data from external systems.
+  2. Ran the Order Import Concurrent Program by navigating to `Order Management > Requests > Run Requests`, selecting "Order Import," and submitting the request.
+
+### 6. **Generate Invoices upon Shipment or Fulfillment**
+- **Action:** 
+  1. **Set Up Autoinvoice Integration:** 
+     - Navigated to `Receivables > Setup > Transactions > Sources` and defined the source as "Order Entry" to integrate with Order Management.
+  2. **Define Transaction Types:** 
+     - Went to `Receivables > Setup > Transactions > Transaction Types` and defined transaction types for sales invoices.
+  3. **Ship Confirm Sales Orders:** 
+     - In the Sales Order module, navigated to `Shipping > Transactions` and performed "Ship Confirm" for the order.
+  4. **Generate Invoices:** 
+     - Navigated to `Receivables > Interfaces > Autoinvoice` and ran the program to generate invoices from the fulfilled sales orders.
+
+---
+
+## Conclusion
+This assignment demonstrates the process of managing customer accounts, entering sales orders, integrating with the Order Import Interface, and generating invoices in Oracle Order Management. The integration with Oracle Receivables ensures smooth order-to-cash processing, automating key steps in the sales cycle.
+
+
+### Navigating to Payment Overview with Invoices in Payables (Oracle EBS)
+
+To access the **Payment Overview** for invoices in Oracle E-Business Suite (EBS), follow these steps:
+
+1. Navigate to **Payables > Invoices > Invoice Entry**.
+2. In the **Invoice Entry** screen, use the shortcut `Ctrl + Fn + F11` to query the standard invoice.
+3. Upon querying, a list of invoices will appear. Select the relevant **Standard Invoice** from the list.
+4. Once the invoice is selected, click on **Actions**. The system will prompt you with the option to pay the invoice in full. Confirm by selecting **OK**.
+5. Next, navigate to **View Payments** to view the payment associated with the invoice.
+6. Select the payment record, and click on **Payment Overview** to view the details of the payment transaction.
+
+By following these steps, you can efficiently access and review the Payment Overview for any invoice within the Payables module of Oracle EBS.
 
 
  
