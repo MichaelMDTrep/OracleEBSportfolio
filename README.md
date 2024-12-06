@@ -1,16 +1,18 @@
-#  portfolio
-# Highly motivated Technical Analyst with a strong track record of delivering results and optimizing business operations. 
-# Identifies strategies for enhancing efficiency by reengineering processes using Cobol and Mainframe. 
-# Proficient in identifying cost-effective solution designs, analyzing data to identify trends, patterns, and valuable insights for decision-making processes, and providing critical support for major business systems. 
-# Experienced in data cleaning, transformation, and validation, ensuring data quality and consistency. 
-# Exceptional collaboration and communication skills, adept at eliciting requirements and visualizing business processes.
+# Portfolio
 
+## Overview
+As a highly motivated and results-driven Technical Analyst, I specialize in optimizing business operations through innovative process reengineering. With a strong background in working with Cobol and Mainframe systems, I excel in identifying cost-effective solutions and leveraging data to drive strategic decisions. My expertise includes data cleaning, transformation, and validation to ensure high-quality, consistent datasets. Additionally, I am adept at collaborating with cross-functional teams to elicit requirements, visualize business processes, and implement efficient solutions.
 
+In my experience, I’ve developed a solid track record in managing major business systems, including proficiency in SQL, Oracle E-Business Suite (EBS), and General Ledger tasks. I’m committed to delivering tangible value through thoughtful analysis and ensuring that processes are not only optimized but also aligned with broader business goals.
+
+Whether it’s designing complex SQL scripts or enhancing inventory management processes, I pride myself on my ability to blend technical proficiency with a strong understanding of business needs. I continuously seek opportunities to grow my skills and contribute to impactful, high-quality solutions in the technology and business sectors.
+
+## All the documents can be found in my Oracle EBS directory 
 
 ## SQL demonstration
 
 ### 1. SQL Code demonstrating coding Ability. 
-## All the documents can be found in my Oracle EBS directory 
+
 
 - [`Coding sample.sql`](link-to-file):
  ## Script Overview
